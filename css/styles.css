@@ -1,0 +1,419 @@
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.seccion-uno {
+  background-color: #D61E20;
+}
+
+.seccion-uno {
+  background-color: darkgray;
+}
+
+h1 {
+  background-color: green;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(lightgray));
+  background-image: linear-gradient(gray, lightgray);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 80px;
+  padding: 8px;
+}
+
+.lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  padding-right: 5px;
+}
+
+.lista ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+a {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  font-size: 12px;
+  color: black;
+}
+
+.logo {
+  font: size 14px;
+  color: black;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+}
+
+.d-block img {
+  width: 80%;
+}
+
+.texto {
+  width: 100%;
+  padding-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.cuerpo {
+  margin-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.seccion-dos {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  border-radius: 5px black solid;
+  width: 30%;
+  height: 320px;
+  -webkit-transform: translate(2px);
+          transform: translate(2px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card img {
+  width: 220px;
+}
+
+.card-2 img {
+  height: 220px;
+  width: 220px;
+}
+
+.card-2 h4 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(lightgray));
+  background-image: linear-gradient(gray, lightgray);
+  height: 100px;
+}
+
+.footer .defensa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .iconos img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(lightgray));
+  background-image: linear-gradient(gray, lightgray);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 80px;
+  padding: 8px;
+}
+
+.lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  padding-right: 5px;
+}
+
+.lista ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.logo {
+  height: auto;
+  width: 40px;
+  -webkit-animation: mymove 5s infinite;
+          animation: mymove 5s infinite;
+  position: relative;
+  font: size 14px;
+  color: black;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+}
+
+.apartado-argentino {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.seccion-uno {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 180px;
+}
+
+a {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  font-size: 12px;
+  color: black;
+}
+
+.texto {
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.historia-img img {
+  width: 400px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.seccion-tres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 250px;
+  width: 90%;
+}
+
+.datos {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  width: 100%;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(lightgray));
+  background-image: linear-gradient(gray, lightgray);
+}
+
+.footer .defensa h4 {
+  text-align: center;
+}
+
+.footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .iconos img {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
